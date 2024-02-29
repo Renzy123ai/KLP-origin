@@ -1,0 +1,36 @@
++63 961 7354434
+kidzlearningplace@gmail.com
+
+Like our FB Page
+https://www.facebook.com/kidzlp
+ 
+ 
+Basic Handwriting Course
+Early Reading/Reading Intervention
+Academic Tutorials
+Online Tutorials
+Creative Arts/Play-based Learning
+Toddler Playgroup
+
+
+<img src="KLP.jpg" alt="Your Logo">
+    <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+        <li><a href="About.html">ABOUT</a></li>
+    </ul>
+
+    <h1><span>MISSION</span></h1>
+    <p class="par">At <b>KLP</b> , our mission is to provide a nurturing and inclusive learning environment <br> where every child, regardless of their abilities or disabilities, can flourish academically, <br> socially, and emotionally. We are dedicated to fostering a love for learning, building <br> self-confidence, and nurturing the unique potential within each child.</p>
+    <div>
+        <h1><span>VISION</span></h1>
+        <p class="par">Our vision at <b>KLP</b> is to be a beacon of hope and a center of excellence in early <br> childhood and special education. We aspire to create a world where every child, <br> regardless of their background or abilities, has access to high-quality education <br> tailored to their unique needs. We envision a future where diversity is celebrated, <br> inclusion is the norm, and e every child's potential is realized </p>
+
+<meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>KID'Z LEARNING PLACE</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <script src='main.js'></script>
+    |<link rel="stylesheet" href="style.css">
+</head>
