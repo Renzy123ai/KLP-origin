@@ -5,9 +5,10 @@ body {
 
 }
 
+
 /* Navbar */
 .navbar{
-    background-color:rgb(240, 184, 110);
+    background-color:rgb(255, 220, 174);
     height: 30%;
 }
 
@@ -26,6 +27,15 @@ body {
 .nav-link2{
     color: #fff;
 }
+
+
+/* Search BTN*/
+.btn{
+    color: #ffff;
+
+}
+
+
 /* Footer */
 .footer {
     background-color: rgb(255, 186, 58);
@@ -60,9 +70,6 @@ body {
     height: 35%;
 width: 30%;
 justify-content: center;
-border: orange;
-border-style: ridge;
-background-color: orange;
 }
 
   
@@ -75,6 +82,7 @@ background-color: orange;
     color: #2c43c4;
   }
 
+  
   /* Clear floats after the columns */
 .row:after {
     content: "";

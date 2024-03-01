@@ -7,7 +7,7 @@ body {
 
 /* Navbar */
 .navbar{
-    background-color:rgb(252, 180, 85);
+    background-color:rgb(255, 220, 174);
     height: 30%;
 }
 
@@ -58,6 +58,14 @@ h1 {
     line-height: 1.5;
 }
 
+
+/* Search BTN*/
+.btn{
+    color: #ffff;
+
+}
+
+
 /* Footer */
 .footer {
     background-color: rgb(255, 186, 58);
@@ -80,6 +88,7 @@ h1 {
 .footer ul li {
     margin-bottom: 5px;
 }
+
 
 /* Style.css */
 
@@ -106,6 +115,7 @@ border: orange;
 border-style: ridge;
 background-color: orange;
 }
+
 
 /* Style for the container div with class "image" */
 .image {

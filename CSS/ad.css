@@ -7,7 +7,7 @@ body {
 
 /* Navbar */
 .navbar{
-    background-color:rgb(240, 184, 110);
+    background-color:rgb(255, 220, 174);
     height: 30%;
 }
 
@@ -26,6 +26,15 @@ body {
 .nav-link2{
     color: #fff;
 }
+
+
+/* Search BTN*/
+.btn{
+    color: #ffff;
+
+}
+
+
 /* Footer */
 .footer {
     background-color: rgb(255, 186, 58);
