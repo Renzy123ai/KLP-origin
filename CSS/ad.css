@@ -1,13 +1,13 @@
-/* Body */
 body {
     font-family: Comic Sans MS, sans-serif;
     margin: 0;
     padding: 0;
+
 }
 
 /* Navbar */
 .navbar{
-    background-color:rgb(252, 180, 85);
+    background-color:rgb(240, 184, 110);
     height: 30%;
 }
 
@@ -23,41 +23,9 @@ body {
     color: #ffff;
 }
 
-/* Style for the active navigation link */
-.nav-link.active{
-    color: #fff; /* Set the text color for the active link */
-  }
-  
-  /* Common styling for navigation links */
-  .nav-link {
-    text-decoration: none; /* Remove default underline for non-active links */
-    color: #fff; /* Set the default text color for non-active links */
-    transition: color 0.3s ease; /* Add a smooth transition for color changes */
-  }
-  
-  /* Hover effect for navigation links */
-  .nav-link:hover {
-    color: #fff; /* Change text color on hover */
-  }
-  
-
-
-/* Content */
-.container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
+.nav-link2{
+    color: #fff;
 }
-
-h1 {
-    font-size: 28px;
-}
-
-.par {
-    font-size: 18px;
-    line-height: 1.5;
-}
-
 /* Footer */
 .footer {
     background-color: rgb(255, 186, 58);
@@ -66,7 +34,6 @@ h1 {
     padding: 20px 0;
     font-size: 18px;
 }
-
 
 .footer h4 {
     margin-bottom: 10px;
@@ -81,21 +48,12 @@ h1 {
     margin-bottom: 5px;
 }
 
-/* Style.css */
-
-
-.navbar-brand img {
-    max-width: 80%;
-    height: auto;
+.center {
+    text-align: center;
 }
 
 .center {
-    text-align: center;   
-}
-
-.center{
-    height: 100%;
-    width: 100%;
+    text-align: center;
 }
 
 .center img{
@@ -118,5 +76,12 @@ background-color: orange;
   .image img {
     max-width: 100%; /* Make sure the image does not exceed its container's width */
     height: auto; /* Maintain the aspect ratio of the image */
+  }
+
+  /* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
   }
   
