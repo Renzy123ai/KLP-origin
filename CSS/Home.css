@@ -5,22 +5,29 @@ body {
     padding: 0;
 }
 
+:root {
+    --primary: #ffffff;
+    --secondary: rgb(255, 186, 58);
+    --accent: orange;
+    
+}
+
 /* Navbar */
 .navbar{
-    background-color:rgb(255, 220, 174);
+    background-color:var(--primary);
     height: 30%;
 }
 
 .navbar-brand{
-    color: #fff;
+    color: var(--primary);
 }
 
 .nav-link{
-    color: #ffff;
+    color: var(--primary);
 }
 
 .nav-item{
-    color: #ffff;
+    color: var(--primary);
 }
 
 /* Style for the active navigation link */
@@ -34,13 +41,11 @@ body {
     color: #fff; /* Set the default text color for non-active links */
     transition: color 0.3s ease; /* Add a smooth transition for color changes */
   }
-  
-  /* Hover effect for navigation links */
-  .nav-link:hover {
-    color: #fff; /* Change text color on hover */
-  }
-  
 
+  body {
+    background-color: var(--secondary)
+
+    }
 
 /* Content */
 .container {
@@ -51,10 +56,13 @@ body {
 
 h1 {
     font-size: 28px;
+    color: green;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .par {
-    font-size: 18px;
+    font-size: 20px;
     line-height: 1.5;
 }
 
@@ -68,7 +76,7 @@ h1 {
 
 /* Footer */
 .footer {
-    background-color: rgb(255, 186, 58);
+    background-color: var(--primary);
     color: #fff;
     text-align: center;
     padding: 20px 0;
@@ -78,11 +86,15 @@ h1 {
 
 .footer h4 {
     margin-bottom: 10px;
+    font-family: sans-serif;
+    font-weight: bold;
 }
 
 .footer ul {
     list-style-type: none;
     padding: 0;
+    font-size: 20px;
+    font-family: sans-serif;
 }
 
 .footer ul li {
@@ -109,11 +121,11 @@ h1 {
 
 .center img{
     height: 35%;
-width: 30%;
-justify-content: center;
-border: orange;
-border-style: ridge;
-background-color: orange;
+    width: 30%;
+    justify-content: center;
+    border: orange;
+    border-style: ridge;
+    background-color: orange;
 }
 
 
@@ -129,4 +141,3 @@ background-color: orange;
     max-width: 100%; /* Make sure the image does not exceed its container's width */
     height: auto; /* Maintain the aspect ratio of the image */
   }
-  
